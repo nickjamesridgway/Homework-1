@@ -90,7 +90,7 @@ p {
     color: #ffffff;
 }
 
-/* Created a new class */
+/* Created a new id and merged everything*/
 .benefit-box {
     margin-bottom: 32px;
 }
@@ -106,7 +106,7 @@ p {
     max-width: 150px;
 }
 
-/* Created a new class */
+/* Created a new id and merged everything*/
 .bluebox {
     margin-bottom: 20px;
     padding: 50px;
