@@ -4,12 +4,24 @@
     margin: 0;
 }
 
-body {
+/* Combined the element selectors to one */
+body 
+{
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Headers */
 .header {
-    padding: 10px;
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -41,17 +53,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-/* Changed the name */
-.coverimage {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -74,8 +76,6 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
 }
 
 .benefits {
@@ -87,38 +87,55 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
+
+/* combined these 3 selectors  */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Created a new id and merged everything*/
-.benefit-box {
-    margin-bottom: 32px;
-}
-
-.benefit-box h3 {
+/* combined  3 more selectors  */
+.benefit-lead h3, .benefit-cost h3, .benefit-brand h3  {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-box img {
+
+/* combined 3 more selectors  */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Created a new id and merged everything*/
-.bluebox {
+.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
+    color: #ffffff;
 }
 
-.bluebox img {
+/* combined 2 selectors  */
+.online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* combined 3 selectors  */
+.search-engine-optimization img, .social-media-marketing img, .online-reputation-management img   {
     max-height: 200px;
 }
 
-.bluebox h2 {
+
+/* combined 3 selectors  */
+.search-engine-optimization h2, .social-media-marketing h2, .online-reputation-management h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
